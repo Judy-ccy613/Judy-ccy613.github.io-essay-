@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Sekuya&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	height: 100%;
+	min-height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+	text-align: center;
+	/*font-size: 1.8vh;
+	line-height: 2.7vh;
+	font-family: Copse, serif;
+	color: #191d32;
+	background-color: white*/;
+}
+
+header {
+	font-family:Sekuya, system-ui;
+	font-size: 6vh;
+};
+
+
+
+article {
+	width: 60vw;
+	margin-left: 25vw;
+
+}
+
+
+a, a:visited {
+	color: #023E8A;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #A2D2FF;
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	left: 8vw;
+	background-color: #111111;
+}
+
+nav > p {
+	padding: 5px;
+}
+
+nav > p :hover {
+	opacity: 0.7;
+}
+
+nav > p > a , nav > p > a:visited {
+	color: white;
+}
+
+figure > img {
+	max-width:60%;
+	position: relative;
+}
+
+section > p {
+	text-indent: 2em;
+	margin: 0.5 em;
+}
+
+section {
+	width: 70vw;
+	margin-left: 20vw;
+	text-align: left;
+}
